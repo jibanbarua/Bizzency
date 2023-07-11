@@ -1,0 +1,192 @@
+/* common css start */
+:root{
+  --heading: 'Abril Fatface', cursive;
+  --primary-font: 'Open Sans', sans-serif;
+  --secand-font: 'Ubuntu', sans-serif;
+  --primary-color:#0f2f44;
+  --button-color: #ffc712;
+}
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.w-50{
+  width: 50%;
+}
+.w-33{
+  width: calc(100% / 3);
+}
+.btn a{
+  padding: 16px 20px;
+  background-color:var(--secondary-color);
+  color:var(--primary-color);
+  font-size: 20px;
+  line-height: 44px;
+  border-radius: 5px;
+  font-family: var(--secondary-font);
+}
+
+body{
+  font-family: var(--primary-font);
+  color:var(--primary-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* common css end */
+/* top section css start */
+#top{
+  background-color: #0f2f44;
+}
+#top .container {
+  justify-content: space-between;
+  padding: 19px 0;
+  color: #fefefe;
+  font-size: 16px;
+}
+
+/* top section css end */
+/* Nav section css start */
+#nav{
+  background-color: #ffffff;
+}
+#nav .row{
+  justify-content: space-between;
+  align-items: center;
+}
+#nav ul li a {
+  display: inline-block;
+  padding: 44px 17.5px;
+  font-size: 16px;
+  color: #222222;
+  line-height: 24px;
+ }
+ #nav ul li button{
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: 1px solid #e2e2e2;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+ }
+ #nav ul li a:hover,
+ #nav ul li button:hover{
+  background-color:#ffc712;
+ }
+/* Nav section css end */
+/* Banner section css start */
+#banner{
+  height: 601px;
+  background-image: url(./../images/Bizzency_banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#banner .container{
+  padding-bottom: 140px;
+}
+#banner a{
+  color:#ffffff ;
+  padding: 15px 20px;
+  background-color: #8484bf;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+#banner h3{
+  padding-top: 142px;
+  font-size: 50px;
+  line-height:70px;
+  font-family: var(--secondary-font);
+  font-weight: 300;
+  color: var(--primary-color);
+}
+#banner h1{
+  font-size: 80px;
+      font-family: var(--heading);
+      font-weight: 400;
+      line-height: 70px;
+      color: var(--primary-color);
+}
+#banner h4{
+  font-size: 32px;
+  line-height: 24px;
+  letter-spacing: 17px;
+  color:#8484bf;
+  font-weight: 400;
+  padding-top: 22px;
+}
+#banner p{
+  font-size: 14px;
+  line-height: 24px;
+  padding: 33px 0
+  
+}
+#banner a{
+ padding: 14px 20px;
+ margin: 0 5px;
+}
+#banner button{
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border-radius: 100%;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: #8484bf;
+}
+/* Banner section css end */
+/* About section css start */
+#about{
+  padding-top: 100px;
+}
+#about .about_info h6{
+  font-size: 14px;
+  text-align: left;
+}
+#about .about_info h2{
+  font-size: 32px;
+  text-align: left;
+}
+#about .about_info p{
+  font-size: 16px;
+  color: #0f2f44;
+  line-height: 24px;
+  padding: 31px 0;
+}
+#about .about_info li{
+  font-size: 16px;
+  line-height: 44px;
+  padding: 0 31px;
+}
+#about .about_info button{
+  font-size: 20px;
+  color: #0f2f44;
+  padding: 16px 20px;
+  margin: 16.5px 10px;
+  background: none;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+#about .about_info button:hover{
+  background-color:#ffc712;
+}
+
+/* About sectioin css end */
